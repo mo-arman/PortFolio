@@ -8,6 +8,7 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from "./BlurBlob";
+import Assistant from "./components/Assistant/Assistant";
 function App() {
   return (
     <div className="bg-[#050414]">
@@ -26,6 +27,7 @@ function App() {
         <Education />
         <Contact />
         <Footer />
+        <Assistant className="bg-white" />
       </div>
     </div>
   );
