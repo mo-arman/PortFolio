@@ -22,34 +22,55 @@ const About = () => {
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
-            <span className="text-white">I am a </span>
-            <ReactTypingEffect
-              text={[
-                "Full Stack Developer",
-                "SQL Developer",
-                "Python Developer",
-                "Tableau Developer",
-                "Coder",
-                "JavaScript Fullstack Developer",
-                "UI/UX Developer",
-              ]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
-            />
-          </h3>
+  <span className="text-white">I am a </span>
+  <ReactTypingEffect
+    text={[
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "Tableau Developer",
+      "SQL Developer",
+      "Python Data Analyst",
+      "Data Visualization Specialist",
+      "Full Stack Developer",
+      "JavaScript Fullstack Developer",
+      "MERN Stack Developer",
+      "Python Developer",
+      "Frontend Developer",
+      "Backend Developer",
+      "UI/UX Developer",
+      "Web Developer",
+      "Coder"
+    ]}
+    speed={100}
+    eraseSpeed={50}
+    typingDelay={500}
+    eraseDelay={2000}
+    cursorRenderer={(cursor) => (
+      <span className="text-[#8245ec]">{cursor}</span>
+    )}
+  />
+</h3>
+
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions. I am currently studying German, have cracked
-            the IELTS, and am pursuing data analytics to broaden my skill set.
+            I am a Full-Stack Developer with over 2 years of experience in
+            building scalable and user-focused web applications. Proficient in
+            both frontend and backend development, I specialize in the{" "}
+            <strong>MERN stack</strong> and modern technologies to deliver
+            clean, efficient, and responsive solutions. Currently, I am
+            expanding my expertise into the field of{" "}
+            <strong>Data Analytics</strong>, focusing on tools like{" "}
+            <strong>Python, SQL, Excel, and Power BI</strong> to extract
+            insights from data and support better decision-making. My
+            development background gives me a unique advantage in building
+            full-cycle analytical applications. In addition to my technical
+            skills, I am currently preparing for the <strong>IELTS exam</strong>{" "}
+            to strengthen my global communication skills and learning the{" "}
+            <strong>German language</strong> to explore international
+            opportunities and expand my professional network. With a passion for
+            continuous learning and problem-solving, I aim to create impact
+            through technology — whether by building high-performance
+            applications or uncovering stories hidden in data.
           </p>
           {/* Resume Button */}
           <a

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Vapi from "@vapi-ai/web";
+// import AI from "components/AI/AI";
 
 const Assistant = () => {
   const [isAssistantActive, setIsAssistantActive] = useState(false);
