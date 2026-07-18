@@ -1,34 +1,12 @@
 {
-  "name": "mohammad-arman-portfolio",
-  "version": "1.0.0",
-  "description": "Full Stack AI Developer Portfolio - Mohammad Arman | Master's Student at University of Duisburg-Essen",
+  "name": "myportfolio",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "homepage": "https://port-folio-pdk8.vercel.app",
-  "author": {
-    "name": "Mohammad Arman",
-    "email": "moharman3818@gmail.com",
-    "url": "https://github.com/mo-arman"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mo-arman/PortFolio.git"
-  },
-  "keywords": [
-    "portfolio",
-    "developer",
-    "full-stack",
-    "ai-engineer",
-    "react",
-    "next.js",
-    "fastapi",
-    "machine-learning",
-    "duisburg-essen"
-  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext .js,.jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
